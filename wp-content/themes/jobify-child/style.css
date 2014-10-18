@@ -1,0 +1,396 @@
+/*
+ Theme Name:   Jobify Child
+ Theme URI:    http://example.com/twenty-fourteen-child/
+ Description:  Capstone version of the JOBIFY Theme
+ Author:       Ryan Mahoney
+ Author URI:   http://example.com
+ Template:     jobify
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  jobify-child
+*/
+
+@import url("../jobify/style.css");
+
+/* General */
+
+
+/* =Theme customization starts here */
+/*--------------------------MISC----------------------------*/
+.callout{background-color: #FFFFFF !important;}
+
+.callout-description {
+
+	width: 100% !important;
+
+}
+
+.container>nav {
+  padding-top:1% !important;
+ }
+
+.entry-content p
+{
+  	font-size:17px !important;
+	font-family:"HelveticaNeue-Light", "Helvetica Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important;
+  	color:#444444 !important;
+}
+
+.FooterAbout, .scarfone{
+	font-size:12px;
+	font-family:"HelveticaNeue-Light", "Helvetica Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	
+}
+
+.footer-widgets{
+  background-color:#06101d !important;
+  padding:30px !important;
+}
+
+.copyright{
+  background-color:#06101d !important;
+
+}
+
+.footer-social
+{
+	display:none!important;
+}
+#metaslider_widget-2 .homepage-widget-title {
+	display: none !important;
+}
+
+
+.homepage-widget{
+	margin: 50px !important;
+}
+.site-header
+{
+	background-color:#205291 !important;
+	padding-bottom: 25px !important;
+	padding-top: 35px !important;
+}
+
+
+.site-footer
+{margin-top:40px !important;}
+
+.sub-menu, .application .application_button
+{
+	background-color:#133157 !important;
+  	border-style:solid;
+    border-bottom:1px solid #eee;
+	border-width:0px;
+  	border-color:#133157;
+}
+.sub-menu li a:hover, .application .application_button:hover
+{
+	background-color:#0c223e !important;
+  	color:#FF7300 !important;
+}
+
+/*--------------------------JOB-TYPE---------------------------*/
+
+/*--test---*/
+
+#site-navigation
+{
+	padding-top:20px !important;
+}
+
+li.job-type, li.job-company, li.job-location, li.job-date-posted {
+ color: #414141 !important;
+ font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important;
+}  
+
+li.job-type.part-time
+{
+	background-color:#008DA8;
+	color:white;
+	font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+
+}
+li.job-type.internship
+{
+	background-color:#51B948;
+	color:white;
+	font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida 	Grande", sans-serif; 
+
+}
+li.job-type.freelance
+{
+	background-color:#FCB814;
+	color:white;
+	font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+li.job-type.full-time
+{
+	background-color:#EE2E22;
+	color:white;
+	font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+
+li.job-type.temporary
+{
+	background-color:#7307FF;
+	color:white;
+	font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+
+/*------------------------HOMEPAGE-----------------------------*/
+
+.homepage-widget-title, .homepage-widget-description, .copyright
+{
+	font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-weight:bold;
+}
+
+.site-branding
+{
+	padding-bottom:15px !important;
+}
+
+/*-------------------------Manage Jobs-------------------------*/
+table.job-manager-jobs th{
+ 	 color: #0C2A50 !important;
+}
+
+td.filled{
+ 	 color: #000000 !important;
+  	font-size:15px;
+}
+
+.job-dashboard-action-delete {
+ 	color: #cc3429 !important; 
+}  
+
+.job-dashboard-action-delete:hover {
+ 	color: #cc3429 !important;
+    text-decoration: underline;
+}  
+	  
+.job-dashboard-action-mark_filled:hover {
+  color: #cc3429 !important;
+}
+
+.job-dashboard-action-edit:hover{
+	color: #cc3429 !important; 
+}
+
+
+/*----------------------------LINKS----------------------------*/
+
+a, .load_more_jobs, .button
+{
+	color: white;
+	border-style:none;
+	font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-weight:bold;
+  	font-size:16px;
+}
+
+a:hover, .load_more_jobs:hover
+	color:#FF7300 !important;
+	border-color:#FF7300;
+	text-decoration:none !important;
+	font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-weight:bold;
+	
+}
+
+.load_more_jobs:hover, .button:hover
+{
+	border-style:solid !important;
+	border-color:#FF7300 !important;
+	background-color:#f2f2f2 !important;
+}
+
+#submitcomment:hover
+{
+	color:#FF7300 !important;
+	text-decoration:none !important;
+	border-color:#FF7300 !important;
+	background-color:#f2f2f2 !important;
+}
+
+#submitcomment
+{
+	background-color:#0c2a50 !important;
+}
+
+/*--------------------------HEADING----------------------------*/
+
+.page-header
+{
+	background-color: #E8F1F8!important;
+}
+
+.page-title
+{
+	font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-weight:bold;
+	color: #0C2A50!important;
+}
+
+/*---------------------------BODY-------------------------------*/
+
+.content-area
+{
+	font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important; 
+	font-weight:bold !important;
+	font-size:100%;
+}
+
+/*--------------------------FOOTER------------------------------*/
+
+.footer-cta h2, .footer-cta p
+{
+	font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important; 
+	font-weight:bold !important;
+}
+
+.footer-cta
+{
+	background-color:#5194E8 !important;
+}
+
+@media (max-width: 1180px){
+#masthead
+{
+	height:135px;
+}
+}
+@media (max-width: 400px){
+#masthead
+{
+	height:135px;
+}
+}
+/*------------------Find a Job Label Fixes------------------*/
+
+/*DONT TOUCH THIS AT ALL ANYONE!!!  FROM HERE DOWN TO WEBPROGRAMMING:HOVER::AFTER
+THAT MEANS NO COMMENTING THINGS OUT!*/
+
+/*-------this does not exist, but dont get rid of it--------*/
+/*-------if you do youll bang your head against walls-------*/
+/*----------dont move it from this position either----------*/
+label.blank:hover, .blank:hover::after
+{
+	display:hidden;
+}
+
+/*----------------------------------------------------------*/
+label.cetn:hover
+{
+	display:inline-block;
+	text-indent:-9999px;
+	line-height:0;
+	cursor:pointer
+}
+
+
+.cetn:hover::after
+{
+	content:"Computer Electronics Technician"!important;
+	text-indent:0px !important;
+	display:block;
+	line-height:initial;
+}
+
+label.db-admin:hover
+{
+	display:inline-block;
+	text-indent:-9999px;
+	line-height:0;
+	cursor:pointer
+}
+
+.db-admin:hover::after
+{
+	content:"Database Administration"!important;
+	text-indent:0px !important;
+	display:block;
+	line-height:initial;
+}
+
+label.db-develop:hover
+{
+	display:inline-block;
+	text-indent:-9999px;
+	line-height:0;
+	cursor:pointer
+}
+
+.db-develop:hover::after
+{
+	content:"Database Development"!important;
+	text-indent:0px !important;
+	display:block;
+	line-height:initial;
+}
+
+label.itsmn:hover
+{
+	display:inline-block;
+	text-indent:-9999px;
+	line-height:0;
+	cursor:pointer
+}
+
+.itsmn:hover::after
+{
+	content:"Systems Management/Networking"!important;
+	text-indent:0px !important;
+	display:block;
+	line-height:initial;
+}
+
+.page-id-2069label.programming:hover
+{
+	display:inline-block;
+	text-indent:-9999px;
+	line-height:0;
+	cursor:pointer
+}
+
+.page-id-2069.programming:hover::after
+{
+	content:"Programming"!important;
+	text-indent:0px !important;
+	display:block;
+	line-height:initial;
+}
+
+.page-id-2069 .label.web-programming:hover
+{
+	display:inline-block;
+	text-indent:-9999px;
+	line-height:0;
+	cursor:pointer;
+}
+
+.page-id-2069 .web-programming:hover::after
+{
+	content:"Web Programming"!important;
+	text-indent:0px !important;
+	display:block;
+	line-height:initial;
+}
+
+/*--------------------About Page Images---------------------*/
+
+.page-id-2249 .promo{
+  	
+   	display: block;
+  	float: right;
+  	width: 228px;
+	height: 228px;
+  	position: relative;
+	padding: 20px;
+  	vertical-align: middle;
+  	margin-right: 0px auto;
+  	margin-left: 0px auto;
+		
+}
+/*----------------------------------------------------------*/
